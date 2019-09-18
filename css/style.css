@@ -1,15 +1,94 @@
-.nav-head {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 99;
-    transition-property: all;
-    transition-duration: 0.4s, 0.3s;
-    transition-timing-function: ease, linear;
-    transition-delay: 0s, 0s;
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
 }
 
-.navbar {
-    background-color: rebeccapurple;
+.nav-head {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-head .navbar-toggler {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .5);
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.ft-change-one {
+    color: #222222 !important;
+    font-size: 12px;
+    font-family: 'poppins', sans-serif;
+}
+
+.bg-image {
+    height: 550px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)), url(../images/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.content-h1 {
+    font-size: 72px;
+    font-family: 'poppins', sans-serif;
+}
+
+.small-h6 {
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+}
+
+.content-p {
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+    line-height: 22px;
+    padding: 0px 130px;
+}
+
+.btn-check {
+    font-size: 14px;
+    background-color: #d1ab7f;
+    font-family: 'poppins', sans-serif;
+}
+
+.check-button:hover .btn-check {
+    background-color: transparent;
+    border: 1px solid #fff !important;
+}
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 569px) and (max-width: 768px) {
+    .content-h1 {
+        font-size: 52px;
+    }
+    .small-h6 {
+        font-size: 14px;
+    }
+    .content-p {
+        font-size: 14px;
+        padding: 0px 50px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+    .content-h1 {
+        font-size: 32px;
+    }
+    .small-h6 {
+        font-size: 14px;
+    }
+    .content-p {
+        font-size: 14px;
+        padding: 0px;
+    }
 }

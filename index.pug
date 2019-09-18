@@ -8,29 +8,44 @@ html(lang="en")
         link(rel="stylesheet" href="css/style.css")
         link(rel="stylesheet" href="css/bootstrap.min.css")
         link(rel="stylesheet" href="css/all.css")
-    body
-      header.nav-head
-        nav(class="navbar navbar-expand-md")
+        link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous")
+        link(rel="stylesheet" href="css/themify-icons.css")
+        link(href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet")
+
+    body 
+     header.nav-head
+      nav(class="navbar navbar-expand-md")
          .container
               a(class="navbar-brand" href="")
                  img.logo(src="images/logo.png")
-              button(class="navbar-toggler" data-target="#unique" data-toggle="collapse" type="button")
-              span.navbar-toggler-icon
-              .collapse.navbar-collapse(id="unique")
-                  ul.navbar-nav
+              button.navbar-toggler(data-target="#unique" data-toggle="collapse" type="button")
+                   span(i class="fas fa-sliders-h")
+              .collapse(class="navbar-collapse" id="unique")
+                    ul.navbar-nav
                      li.nav-item
-                       a(class="navlink ft-change-one  font-weight-normalpl-lg-4 pl-md-2" href="") HOME
+                       a(class="navlink ft-change-one  font-weight-normal pl-lg-4 pl-md-2 text-decoration-none" href="") HOME
                      li.nav-item
-                       a(class="navlink ft-change-one  font-weight-normalpl-lg-4 pl-md-2" href="") ABOUT
+                       a(class="navlink ft-change-one  font-weight-normal pl-lg-4 pl-md-2 text-decoration-none" href="") ABOUT
                      li.nav-item
-                       a(class="navlink ft-change-one  font-weight-normalpl-lg-4 pl-md-2" href="") MENU
+                       a(class="navlink ft-change-one  font-weight-normal pl-lg-4 pl-md-2 text-decoration-none" href="") MENU
                      li.nav-item
-                       a(class="navlink ft-change-one  font-weight-normalpl-lg-4 pl-md-2" href="") TEAM
+                       a(class="navlink ft-change-one  font-weight-normal pl-lg-4 pl-md-2 text-decoration-none" href="") TEAM
                      li.nav-item
-                       a(class="navlink ft-change-one  font-weight-normalpl-lg-4 pl-md-2" href="") BLOG
+                       a(class="navlink ft-change-one  font-weight-normal pl-lg-4 pl-md-2 text-decoration-none" href="") BLOG
                      li.nav-item
-                       a(class="navlink ft-change-one  font-weight-normal pl-lg-4 pl-md-2" href="") ELEMENTS
+                       a(class="navlink ft-change-one  font-weight-normal pl-lg-4 pl-md-2 text-decoration-none" href="") ELEMENTS
                      li.nav-item
-                       a(class="navlink ft-change-one  font-weight-normalpl-lg-4 pl-md-2" href="") CONTACT
-      
-      
+                       a(class="navlink ft-change-one  font-weight-normal pl-lg-4 pl-md-2 text-decoration-none" href="") CONTACT
+      section.bg-image
+       .container(class="h-100")
+            .row(class="justify-content-center align-items-center text-center h-100")
+               .content
+                     h6.small-h6(class="text-white pb-4") WHENEVER WE BAKE, BAKE WITH OUR HEART
+                     h1.content-h1(class="text-white font-weight-bold py-2 border-top border-bottom") Love with baking items
+                     p.content-p(class="text-white font-weight-normal pt-4") Since Americans in the South began roasting pigs publicly, Barbecues have been a staple of North American living. For many, grilling becomes a routine mealtime activity.
+                     .check-button(class="py-3")
+                        button.btn-check(class="text-uppercase border-0 text-white px-4 py-2 font-weight-normal") check our menu
+
+      script(src="js/jquery-3.3.1.slim.min.js")
+      script(src="js/popper.min.js")
+      script(src="js/bootstrap.min.js")
