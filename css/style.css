@@ -1,0 +1,15 @@
+.nav-head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    transition-property: all;
+    transition-duration: 0.4s, 0.3s;
+    transition-timing-function: ease, linear;
+    transition-delay: 0s, 0s;
+}
+
+.navbar {
+    background-color: rebeccapurple;
+}
