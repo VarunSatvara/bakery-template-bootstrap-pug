@@ -160,6 +160,9 @@
         font-size: 14px;
         padding: 0px 50px;
     }
+    .sec-two-h1 {
+        font-size: 27px;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 568px) {
@@ -172,5 +175,15 @@
     .content-p {
         font-size: 14px;
         padding: 0px;
+    }
+    .sec-two-h1 {
+        font-size: 27px;
+    }
+    .title-h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .title-p {
+        font-size: 14px;
     }
 }
