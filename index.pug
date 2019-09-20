@@ -44,7 +44,7 @@ html(lang="en")
                      h1.content-h1(class="text-white font-weight-bold py-2 border-top border-bottom") Love with baking items
                      p.content-p(class="text-white font-weight-normal pt-4") Since Americans in the South began roasting pigs publicly, Barbecues have been a staple of North American living. For many, grilling becomes a routine mealtime activity.
                      .check-button(class="py-3")
-                        button.btn-check(class="text-uppercase border-1 text-white px-4 py-2 font-weight-normal") check our menu
+                        a.btn-check(class="text-uppercase border-1 text-white px-4 py-2 font-weight-normal text-decoration-none" role="button" href="#") check our menu
       section.section-2 
           .container(class="py-5")
              .row(class="py-3")
@@ -55,7 +55,7 @@ html(lang="en")
                            p.sec-two-p(class="font-weight-normal") We are here to listen from you deliver exellence by any means
                            p.sec-two-paragraph(class="font-weight-normal") Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
                            .now-button(class="py-3")
-                                  button.btn-now(class="border-0 text-white px-md-5 py-md-3 px-3 py-2 font-weight-normal") Get Started Now
+                                  a.btn-now(class="text-white px-md-5 py-md-3 px-3 py-2 font-weight-normal text-decoration-none" role="button" href="#") Get Started Now
                 .sec-col(class="col-12 col-md-4 col-lg-3 px-4 d-flex align-items-end")
                       img(class="img-fluid bk-item d-none d-md-block" src="images/about-img.png")
       section.section-3
@@ -95,9 +95,24 @@ html(lang="en")
                          .card-body
                               h4.card-h4(class="font-weight-bold") Chicken
                               p.card-p(class="font-weight-normal") inappropriate behavior is often laughed off as “boys will be.
-                .col-lg-12
+                .col-12
                        .now-button(class="py-5")
-                                  button.btn-now(class="border-0 text-white px-md-5 py-md-3 px-3 py-2 font-weight-normal") View Full Menu             
+                               a.btn-now(class="text-white px-md-5 py-md-3 px-3 py-2 font-weight-normal text-decoration-none" role="button" href="#") View Full Menu 
+      section.about-video-area(class="section-gap")
+        .container
+            .row(class="align-items-center py-5")
+                .col-lg-6(class="about-video-left col-12")
+                      h6.sec-two-h6(class="text-uppercase font-weight-normal") Brand new app to blow your mind
+                      h1.sec-three-h1(class="font-weight-bold py-2") We’ve made a life that will change you
+                      p.sec-two-p(class="font-weight-normal") We are here to listen from you deliver exellence
+                      p.sec-two-paragraph(class="font-weight-normal") Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmo d tempor incididunt ut labore et dolore magna aliqua.
+                      .now-button(class="py-5")
+                         a.btn-now-dark(class="border-0 text-white px-md-5 py-md-3 px-3 py-2 font-weight-normal text-decoration-none" role="button" href="#") Get Started Now 
+                .col-lg-6(class="justify-content-center align-items-center d-flex col-12")
+                       .lunch-image(class="d-flex justify-content-center d-flex align-items-center ")
+                             .play-image
+                                img.play-png(src="images/play.png")
+                                                                 
                 
       script(src="js/jquery-3.3.1.slim.min.js")
       script(src="js/popper.min.js")

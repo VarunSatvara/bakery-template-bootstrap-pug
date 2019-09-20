@@ -58,7 +58,7 @@
     font-family: 'poppins', sans-serif;
 }
 
-.check-button:hover .btn-check {
+.btn-check:hover {
     background-color: transparent;
 }
 
@@ -91,9 +91,11 @@
     font-size: 14px;
     background-color: #d1ab7f;
     font-family: 'poppins', sans-serif;
+    border-style: none;
 }
 
-.btn-now:hover {
+.btn-now:hover,
+.btn-now-dark:hover {
     color: #d1ab7f !important;
     background-color: #ffffff;
     border: 1px solid #d1ab7f !important;
@@ -145,6 +147,29 @@
     line-height: 22px;
 }
 
+.sec-three-h1 {
+    color: #222222;
+    font-size: 36px;
+    font-family: 'poppins', sans-serif;
+    padding-right: 150px;
+    line-height: 43px;
+}
+
+.btn-now-dark {
+    font-size: 14px;
+    background-color: #222222;
+    font-family: 'poppins', sans-serif;
+    border-style: none;
+}
+
+.lunch-image {
+    height: 320px;
+    width: 100%;
+    background-image: url(../images/video-bg.webp);
+    background-size: cover;
+    background-position: center;
+}
+
 @media only screen and (min-width: 1024px) {}
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {}
@@ -162,6 +187,9 @@
     }
     .sec-two-h1 {
         font-size: 27px;
+    }
+    .sec-three-h1 {
+        padding-right: 300px;
     }
 }
 
@@ -185,5 +213,8 @@
     }
     .title-p {
         font-size: 14px;
+    }
+    .sec-three-h1 {
+        padding-right: 0px;
     }
 }
