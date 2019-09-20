@@ -230,6 +230,38 @@
     line-height: 22px;
 }
 
+.footer {
+    background-color: #04091e;
+}
+
+.about-h6 {
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+}
+
+.about-p {
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+}
+
+.location-arrow {
+    background-color: #d1ab7f !important;
+}
+
+.ft-icon {
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+}
+
+.footer-text-p {
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+}
+
+.ft-same {
+    color: #d1ab7f !important;
+}
+
 @media only screen and (min-width: 1024px) {}
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {}
