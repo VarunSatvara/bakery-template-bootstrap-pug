@@ -195,6 +195,41 @@
     font-family: 'poppins', sans-serif;
 }
 
+.blog-title-p {
+    color: #777777;
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+    padding: 150px;
+    line-height: 22px;
+}
+
+.card-title-h4 {
+    color: #222222;
+    font-size: 17px;
+    font-family: 'poppins', sans-serif;
+    line-height: 23px;
+}
+
+.card-text-p {
+    color: #777777;
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+    line-height: 22px;
+}
+
+.mark-span {
+    columns: #222222;
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+}
+
+.meta {
+    color: #777777;
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+    line-height: 22px;
+}
+
 @media only screen and (min-width: 1024px) {}
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {}
@@ -241,5 +276,8 @@
     }
     .sec-three-h1 {
         padding-right: 0px;
+    }
+    .blog-title-p {
+        padding: 0px;
     }
 }
