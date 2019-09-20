@@ -170,6 +170,31 @@
     background-position: center;
 }
 
+.bg-review {
+    background-image: linear-gradient(rgba(4, 9, 30, .5), rgba(4, 9, 30, .5)), url(../images/review-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.single-review .star .checked {
+    color: orange;
+}
+
+.user-h4 {
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+}
+
+.user-p {
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+}
+
+.fa {
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+}
+
 @media only screen and (min-width: 1024px) {}
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {}
